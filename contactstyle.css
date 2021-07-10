@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+body{
+    position:relative;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(20, 33, 61, 0.3);
+    position: relative;
+}
+header {
+    width: 100%;
+    position: absolute;
+}
+.headText {
+    margin-left: 2rem;
+    color:blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-20px, -50%);
+    transition: opacity 250ms ease;
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: normal;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+}
+.navlinks li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 250ms ease;
+    letter-spacing: normal;
+}
+.navlinks li:hover {
+    background-color: black;
+    transition: all 250ms ease;
+}
+.links {
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size: 1.5rem;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first {
+    background:linear-gradient(to bottom, rgba(173, 247, 228, 0.4), rgba(0, 0, 0, 0.4)), url("dog-talking-on-the-phone.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:black;
+    font-family:'Encode Sans SC', sans-serif ;
+}
+.one{
+    font-size: 3em;
+    letter-spacing:0.01em;
+}
+.c li a{
+    font-size: 2.5em;
+    color: whitesmoke;
+    
+}
